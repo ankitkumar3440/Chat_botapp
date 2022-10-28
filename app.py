@@ -3,7 +3,8 @@ import requests
 
 app=Flask(__name__)
 
-@app.route('/',methods=['POST'])
+# @app.route('/',methods=['POST'])
+@app.route('/')
 def index():
 #     data=request.get_json()
 #     source_currency=data['queryresult']['parameters']['unit-currency']['currency']
